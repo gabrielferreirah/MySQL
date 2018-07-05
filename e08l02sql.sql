@@ -1,6 +1,6 @@
-DROP DATABASE IF EXISTS exercicio06;
-CREATE DATABASE exercicio06;
-USE exercicio06;
+DROP DATABASE IF EXISTS e08l02sql;
+CREATE DATABASE e08l02sql;
+USE e08l02sql;
 
 DROP TABLE IF EXISTS pokemons;
 
@@ -741,10 +741,4 @@ INSERT INTO pokemons (nome, codigo, categoria, descricao, altura, peso, hp, ataq
 ('Diancie', '719', 'Jewel', 'A sudden transformation of Carbink,its pink, glimmering body is said to bethe loveliest sight in the whole world.', 0.7, 8.8, 2, 5, 6, 5, 6, 3),
 ('Hoopa', '720', 'Mischief', 'In its true form, it possesses a huge amount of power. Legends of its avarice tell how it once carried off an entire castle to gain the treasure hidden within.', 0.5, 9.0, 4, 6, 3, 6, 5, 4);
 
-/*
-W3Schools
-Theonthenet
-SoloLearn
-FreeCodeCamp
-CodeAcademy
-*/
+SELECT nome'Nome', categoria'Categoria', MIN(ataque)'Ataque' FROM pokemons;
