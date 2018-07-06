@@ -1,6 +1,6 @@
-DROP DATABASE IF EXISTS e02l022sql;
-CREATE DATABASE e02l022sql;
-USE e02l022sql;
+DROP DATABASE IF EXISTS e04l022sql;
+CREATE DATABASE e04l022sql;
+USE e04l022sql;
 
 DROP TABLE IF EXISTS cidades;
 CREATE TABLE cidades (
@@ -5493,4 +5493,4 @@ INSERT INTO cidades VALUES
 ('TO', 'Wanderlândia'),
 ('TO', 'Xambioá');
 
-SELECT cidade'Cidade' FROM cidades WHERE cidade LIKE 'A%';
+SELECT cidade'Cidade' FROM cidades WHERE cidade LIKE 'W%';

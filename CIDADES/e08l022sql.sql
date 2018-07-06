@@ -1,6 +1,6 @@
-DROP DATABASE IF EXISTS e02l022sql;
-CREATE DATABASE e02l022sql;
-USE e02l022sql;
+DROP DATABASE IF EXISTS e08l022sql;
+CREATE DATABASE e08l022sql;
+USE e08l022sql;
 
 DROP TABLE IF EXISTS cidades;
 CREATE TABLE cidades (
@@ -5493,4 +5493,4 @@ INSERT INTO cidades VALUES
 ('TO', 'Wanderlândia'),
 ('TO', 'Xambioá');
 
-SELECT cidade'Cidade' FROM cidades WHERE cidade LIKE 'A%';
+SELECT estado'Estado', COUNT(cidade)'Quantidade de Cidades' FROM cidades WHERE estado LIKE 'SP';
