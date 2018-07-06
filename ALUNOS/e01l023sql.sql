@@ -13,7 +13,7 @@ CREATE TABLE alunos (
 	nota_2 FLOAT,
 	nota_3 FLOAT,
 	nota_4 FLOAT,
-	data_nascimento DATETIME
+	data_nascimento DATE
 );
 
 
@@ -2726,4 +2726,3 @@ VALUES
 ('Délio Carrilho', '805.245.797-17', 'Lalun', 'Touro', '873', '0.11', '5.29', '7.66', '4.42', 'Roxo', '1988-04-30'), 
 ('Justino Betancour', '349.770.422-98', 'Puvofi', 'Touro', '722', '9.57', '4.81', '8.74', '3.26', 'Amarelo-limão', '1968-04-22');
 
-SELECT 
